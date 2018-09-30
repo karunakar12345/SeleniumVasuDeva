@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Karunakar]">
+  <test name="Saturday(failed)">
+    <classes>
+      <class name="com.testng.AdminLoginTest">
+        <methods>
+          <include name="adminLogin"/>
+        </methods>
+      </class> <!-- com.testng.AdminLoginTest -->
+      <class name="com.testng.MultipleTestNg">
+        <methods>
+          <include name="appLogin"/>
+          <include name="appClose"/>
+          <include name="appLaunch"/>
+        </methods>
+      </class> <!-- com.testng.MultipleTestNg -->
+      <class name="com.testng.Annotation">
+        <methods>
+          <include name="method1"/>
+          <include name="method"/>
+        </methods>
+      </class> <!-- com.testng.Annotation -->
+      <class name="com.testng.Validation">
+        <methods>
+          <include name="verify"/>
+        </methods>
+      </class> <!-- com.testng.Validation -->
+      <class name="com.testng.AddEmp">
+        <methods>
+          <include name="addEmp"/>
+          <include name="appLaunch"/>
+        </methods>
+      </class> <!-- com.testng.AddEmp -->
+      <class name="com.testng.FirstTestNg">
+        <methods>
+          <include name="first"/>
+        </methods>
+      </class> <!-- com.testng.FirstTestNg -->
+      <class name="com.testng.BeforeTestAfterTest">
+        <methods>
+          <include name="appLogin"/>
+          <include name="appLaunch"/>
+        </methods>
+      </class> <!-- com.testng.BeforeTestAfterTest -->
+    </classes>
+  </test> <!-- Saturday(failed) -->
+</suite> <!-- Failed suite [Karunakar] -->

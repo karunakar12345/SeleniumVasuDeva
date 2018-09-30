@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Grid Demo Suite" duration-ms="19938" started-at="2018-09-30T06:55:44Z" finished-at="2018-09-30T06:56:04Z">
+    <groups>
+    </groups>
+    <test name="Login on Chrome" duration-ms="18015" started-at="2018-09-30T06:55:44Z" finished-at="2018-09-30T06:56:02Z">
+      <class name="grid.Grid">
+        <test-method status="PASS" signature="dropdownTest(java.lang.String)[pri:0, instance:grid.Grid@482f8f11]" name="dropdownTest" duration-ms="17997" started-at="2018-09-30T12:25:44Z" finished-at="2018-09-30T12:26:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dropdownTest -->
+      </class> <!-- grid.Grid -->
+    </test> <!-- Login on Chrome -->
+    <test name="Login on Firefox" duration-ms="19938" started-at="2018-09-30T06:55:44Z" finished-at="2018-09-30T06:56:04Z">
+      <class name="grid.Grid">
+        <test-method status="PASS" signature="dropdownTest(java.lang.String)[pri:0, instance:grid.Grid@6cc4c815]" name="dropdownTest" duration-ms="19925" started-at="2018-09-30T12:25:44Z" finished-at="2018-09-30T12:26:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dropdownTest -->
+      </class> <!-- grid.Grid -->
+    </test> <!-- Login on Firefox -->
+  </suite> <!-- Grid Demo Suite -->
+</testng-results>

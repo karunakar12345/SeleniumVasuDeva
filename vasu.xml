@@ -1,0 +1,9 @@
+<suite name="Sai">
+  <test name="ORHRM1">
+    <classes>
+      <class name="com.testng.AddEmp"/>
+      <class name="com.testng.empList"/>
+
+    </classes>
+  </test> 
+</suite> 

@@ -1,0 +1,13 @@
+
+<suite name="ORHM">
+  <test name="Smoke">
+    <classes>
+      <class name="com.testng.AdminLoginTest"/>
+      <class name="com.testng.Annotation"/>
+       <class name="com.testng.BeforeTestAfterTest"/>
+      <class name="com.testng.FirstTestNg"/>
+      <class name="com.testng.MultipleTestNg"/>
+
+    </classes>
+  </test> 
+</suite> 

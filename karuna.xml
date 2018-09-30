@@ -1,0 +1,15 @@
+
+<suite name="Karunakar">
+  <test  name="Saturday">
+    <classes>
+      <class name="com.testng.AddEmp"/>
+      <class name="com.testng.Validation"/>
+      <class name="com.testng.AdminLoginTest"/>
+      <class name="com.testng.Annotation"/>
+      <class name="com.testng.FirstTestNg"/>
+      <class name="com.testng.BeforeTestAfterTest"/>
+      <class name="com.testng.MultipleTestNg"/>
+
+    </classes>
+  </test> 
+</suite> 

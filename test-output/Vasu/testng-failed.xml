@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Vasu]">
+  <test name="ORHRM(failed)">
+    <classes>
+      <class name="com.testng.AddEmp">
+        <methods>
+          <include name="appLogin"/>
+          <include name="appLogout"/>
+          <include name="appLaunch"/>
+          <include name="appClose"/>
+        </methods>
+      </class> <!-- com.testng.AddEmp -->
+      <class name="com.testng.empList">
+        <methods>
+          <include name="empList"/>
+        </methods>
+      </class> <!-- com.testng.empList -->
+    </classes>
+  </test> <!-- ORHRM(failed) -->
+</suite> <!-- Failed suite [Vasu] -->
